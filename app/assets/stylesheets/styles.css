@@ -1,0 +1,130 @@
+html {
+	background: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+
+/* INTRODUCTION */
+
+header {
+	padding: 20px 0 0 0;
+	text-align: center;
+	
+}
+
+@media (min-width: 768px) {
+	header {
+		padding: 25px 0px 15px 0px;
+		text-align: center;	
+	}
+}
+
+header h1 {
+	margin: 15px 0 20px 0;
+	font-size: 36px;
+}
+
+/* NAVIGATION */
+
+header ul {
+	list-style: none;
+	padding: 0px;
+}
+
+header li {
+/*	display: inline-block; */
+	width: 70px;
+	margin: 2px;
+	padding: 1px;
+	background: #E6E6E6;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	header li {
+		display: inline-block;
+		width: 100px;
+		margin: 6px;
+		padding: 10px 15px;
+		background: #E6E6E6;
+		border-radius: 10px;	
+	}
+}
+
+header a {
+	color: black;
+}
+
+.pull-right {
+	margin: 0 5px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav-pills > li {
+	float: left;
+}
+
+.nav > li > a {
+	padding: 10px 10px;
+}
+
+/*
+.navigation li {
+	display: inline-block;
+	width: 18%;
+	list-style-type: none; 
+	padding: 20px 10px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(27,22,14,.9);
+	color: white;
+	margin:0 10px;
+	width: 15%;
+	left: 10px;
+	right: 10px; 
+}
+*/
+
+/* CONTENT */
+
+.content {
+	margin-top: 20px;
+}
+
+.p-box {
+	background-color: #E6E6E6;
+	border-radius: 10px;
+}
+
+.content p {
+	padding: 5px 15px;
+}
+
+.content .row {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* FOOTER */
+
+footer {
+	margin: 0 0 20px 0;
+}
+
+/* MISCELLANEOUS STUFF */
+
+.mycenter {
+	position: relative;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%); 
+}
